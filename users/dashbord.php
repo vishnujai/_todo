@@ -168,7 +168,7 @@ if (!isset($_SESSION["authuser"])) {
 
                     <a href="backend/show_list.php?id=<?php echo $data['id']?>" class="card-link"><b>Edit</b></a>
                    
-                      <a href="#" class="card-link"><b>Check Status</b></a> 
+                      <a href="backend/status.php?id=<?php echo $data['id']?>" class="card-link"><b>Mark Complete</b></a> 
                 </div>
             </div>
         </div>
